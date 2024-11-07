@@ -1,0 +1,24 @@
+/* 1. `#b49a83`
+2. `#b39982`
+3. `#b59c84`
+4. `#b49c86`
+5. `#b49a84`
+6. `#b39b85`
+7. `#b49a85`
+8. `#b59d88`
+9. `#b69e89`
+10. `#b79d86` */
+:root{
+    --primary :#2c241e;
+    --primary-2 :#b09983;
+    --text-color :#2c241e;
+    --text-color1 : #e2ded5;
+    --secondary :#e2ded5;
+    --background :#c4bfb4;
+    --accent :#745436;
+    --a : #736252;
+    --b : #e0d5c2;
+    --c : #6b3d26;
+    --d : #8c6954;
+    --e : #e8b08a;
+}
