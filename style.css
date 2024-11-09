@@ -21,9 +21,34 @@
     --c : #6b3d26;
     --d : #8c6954;
     --e : #e8b08a;
+    --f : #26221F;
 }
 
 * {
  width: 100vw;
  height: 100vh;   
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 0px 0px;
+ margin: 0px 0px;
 }
+
+.header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--f);
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.header a {
+    margin: 5vh 8vh;
+    text-decoration: none;
+    color: var(--text-color1);
+    font-weight: 700;
+}
+
+.nav{
+    gap: 10px;
+}
+
