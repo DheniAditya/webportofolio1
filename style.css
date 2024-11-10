@@ -25,45 +25,28 @@
 }
 
 * {
- width: 100vw;
- height: 100vh;   
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- padding: 0px 0px;
- margin: 0px 0px;
-}
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
 
 .header{
-    width: 100vw;
-    height: 15vh;
+    height: 12vh;
     background-color: var(--f);
+    align-items: center;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
 }
 
-.header a {
-    margin: 5vh 8vh;
+.logo-name{
+    color: var(--text-color1);
+    text-decoration: none;
+    font-size: x-large;
+    width: 100px;
+    height: 100px; 
+    font-weight: bold;
+    display: flex;
+}
+
+.nav-link{
     text-decoration: none;
     color: var(--text-color1);
-    font-weight: 700;
-    font-size:x-large;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-}
-
-.tab-menu {
-    gap: 10px;
-    margin: 5.5vh 0px;
-    margin-left: -2vh;
-}
-
-.tab-menu a {
-    font-size: medium;
-}
-
-.tab-menu a:hover{
-    font-size: large;
 }
