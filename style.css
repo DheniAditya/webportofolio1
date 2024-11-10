@@ -49,17 +49,21 @@
     font-size:x-large;
 }
 
-.nav{
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.tab-menu {
     gap: 10px;
     margin: 5.5vh 0px;
     margin-left: -2vh;
 }
 
-.nav a {
+.tab-menu a {
     font-size: medium;
-    margin: 5vh;
 }
 
-.nav a:hover{
+.tab-menu a:hover{
     font-size: large;
 }
