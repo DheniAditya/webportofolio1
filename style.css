@@ -67,7 +67,17 @@ body{
     border-bottom: 2px solid var(--text-color1);
 }
 
-.hero img{
+.hero{
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
+    background-color: var(--a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--primary-2);
 }
