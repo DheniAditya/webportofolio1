@@ -33,6 +33,10 @@ body{
     padding: 0px;
 }
 
+:hover{
+    transition:all 0.25s ease;
+}
+
 .header{
     width: 100vw;
     height: 12vh;
