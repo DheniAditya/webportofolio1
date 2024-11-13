@@ -9,19 +9,11 @@
 9. `#b69e89`
 10. `#b79d86` */
 :root{
-    --primary :#2c241e;
-    --primary-2 :#b09983;
-    --text-color :#2c241e;
-    --text-color1 : #e2ded5;
-    --secondary :#e2ded5;
-    --background :#c4bfb4;
-    --accent :#745436;
-    --a : #736252;
-    --b : #e0d5c2;
-    --c : #6b3d26;
-    --d : #8c6954;
-    --e : #e8b08a;
-    --f : #26221F;
+    --primary :#22201D;
+    --text :#E6E4D7;
+    --secondary :#B9A08D;
+    --background :#C5B8A8;
+    --accent :#DDD6C8;
 }
 
 * {
@@ -48,7 +40,7 @@ body{
 }
 
 .logo-name{
-    color: var(--text-color1);
+    color: var(--text);
     text-decoration: none;
     font-size:  40px;
     font-weight: bold;
@@ -63,13 +55,13 @@ body{
 
 .nav-link{
     text-decoration: none;
-    color: var(--text-color1);
+    color: var(--text);
     font-size: 21px;
     border-bottom: 1px dashed transparent;
 }
 
 .nav-link:hover{
-    border-bottom: 2px solid var(--text-color1);
+    border-bottom: 2px solid var(--text);
 }
 
 .hero{
@@ -149,7 +141,7 @@ body{
 .hero-summary button {
     width: 200px;
     height: 45px;
-    background-color: var(--text-color);
+    background-color: var(--text);
     color: var(--b);
     border-radius: 30px;
     padding: 0;
