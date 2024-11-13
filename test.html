@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section-content {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.section-content.hidden {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  visibility: hidden;
+}
+
+    </style>
+</head>
+<body>
+    
+<nav>
+    <ul>
+      <li><a href="#" onclick="showSection('home')">Home</a></li>
+      <li><a href="#" onclick="showSection('about')">About Me</a></li>
+      <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+      <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+      <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Sections -->
+  <section id="home" class="section-content">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+  
+  <section id="about" class="section-content" style="display: none;">
+    <h2>About Me</h2>
+    <p>Details about your background.</p>
+  </section>
+  
+  <section id="projects" class="section-content" style="display: none;">
+    <h2>Projects</h2>
+    <p>Showcase of your projects.</p>
+  </section>
+  
+  <section id="skills" class="section-content" style="display: none;">
+    <h2>Skills</h2>
+    <p>Details about your skills.</p>
+  </section>
+  
+  <section id="contact" class="section-content" style="display: none;">
+    <h2>Contact</h2>
+    <p>How people can contact you.</p>
+  </section>
+  
+</body>
+</html>
