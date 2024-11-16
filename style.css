@@ -5,6 +5,8 @@ icons :
     project <i class="fa-solid fa-suitcase"></i>
     experience  <i class="fa-solid fa-building"></i> 
                 <i class="fa-regular fa-building"></i>
+    email <i class="fa-solid fa-at"></i>
+    linkedin <i class="fa-brands fa-linkedin"></i>
 */
 
 :root{
@@ -73,9 +75,9 @@ body{
     width: 98vw;
     height: 40vh;
     background-color:var(--accent);
-    display: flex;
-    border-radius: 20px ;
+    display:flex;
     flex-direction: row;
+    border-radius: 20px ;
     align-items: center;
     justify-content:center;
 }
@@ -86,9 +88,17 @@ body{
     border-radius: 50%;
     background-color: var(--text);
     border: 4px solid var(--primary);
-    margin-left: 300px;
+    margin: auto;
+    margin-left: 30%;
+    margin-right: 4%;
 }
-
+.corner-icons{
+    width: 80px;
+    height: 100%;
+    background-color: #22201D;
+    margin: 0;
+    margin-left: 7%;
+}
 .hero-profile:hover{
     box-shadow: 0px 0px 25px black;
 }
@@ -96,7 +106,7 @@ body{
 .hero-summary{
     width: 500px;
     height: 100%;
-    margin-left: 50px;
+    margin: 0;
 }
 
 .hero-summary-name{
@@ -153,6 +163,8 @@ body{
 .hero-summary button:hover{
     box-shadow: 0px 0px 25px black;
 }
+
+
 
 .gallery{
     width: 100vw;
