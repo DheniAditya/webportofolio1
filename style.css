@@ -110,27 +110,17 @@ body{
 }
 
 .hero-summary-name{
+    flex-direction: column;
     margin-top: 6%;
     margin-bottom: 0;
     font-size: 50px;
     font-weight: 600;
     cursor:default;
+    display: flex;
     color: var(--primary);
 }
 
 .hero-summary-name:hover{
-    text-shadow: 0px 0px 25px black;
-}
-
-.hero-summary-role{
-    cursor: default;
-    font-size: 25px;
-    font-weight: 500;
-    margin:1px 0;
-    color: var(--primary);
-}
-
-.hero-summary-role:hover{
     text-shadow: 0px 0px 25px black;
 }
 
