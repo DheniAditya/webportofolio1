@@ -50,6 +50,11 @@ body{
     font-size:  28px;
     font-weight: 600;
     margin: 0vh 2vw;
+    border-bottom: 2px solid transparent;
+}
+
+.logo-name:hover{
+    border-bottom: 2px solid var(--text);
 }
 
 .nav{
@@ -231,8 +236,14 @@ body{
     background-color: var(--text);
     margin: 8px;
     padding: 2%;
-    text-align: center;
-    font-size:40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-card p{
+    margin: 0;
+    font-size: 30px;
+    color: var(--primary);
 }
 
 .gallery-card:hover{
