@@ -20,6 +20,7 @@ icons :
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth;
+    transition: 0.8s;
 }
 
 body{
@@ -219,8 +220,6 @@ body{
 }
 
 .gallery{
-    width: 100vw;
-    height: auto;
     background-color: var(--background);
     display: flex;
     flex-wrap: wrap;
@@ -271,17 +270,21 @@ body{
 .gallery-card i,
 .gallery-card-2 i{
     margin: auto;
-    font-size: 70px;
+    font-size: 62px;
 }
 
 .gallery-card:hover{
     box-shadow: -5px 5px 25px black;
-    transform: scale(1.01);
+    transform: scale(1.2);
+    margin-top: -200px;
+    z-index: 1;
 }
 
 .gallery-card-2:hover{
     box-shadow: -5px 5px 25px black;
-    transform: scale(1.01);
+    transform: scale(1.2);
+    margin-top: -200px;
+    z-index: 1;
 }
 
 .gallery-card-p-content{
