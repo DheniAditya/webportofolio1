@@ -178,6 +178,33 @@ body{
     color: var(--text);
 }
 
+.corner-icons{
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.corner-icons div{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--primary);
+    border-radius:50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.corner-icons i{
+    padding: 12px 0px;
+    font-size: 28px;
+    color: var(--primary);
+}
+
 .gallery{
     width: 100vw;
     height: auto;
