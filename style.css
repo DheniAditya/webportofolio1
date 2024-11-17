@@ -74,12 +74,14 @@ body{
     margin-top: 8px;
     width: 98vw;
     height: 40vh;
-    background-color:var(--accent);
     display:flex;
     flex-direction: row;
     border-radius: 20px ;
     align-items: center;
     justify-content:center;
+    background-image: url(bg-hero.png);
+    background-position: 50% 10%;
+    background-size: cover;
 }
 
 .hero-profile{
