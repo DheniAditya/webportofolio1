@@ -239,20 +239,9 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.gallery-card-2 {
-    width: 19.5%;
-    height: 38vh;
-    border-radius: 6%;
-    background-color: var(--accent);
-    margin: 8px;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.gallery-card div, 
-.gallery-card-2 div {  
+.gallery-card div{
+    margin-top: 6%;  
     display: flex;
     height: 80px;
     width: 100%;
@@ -267,20 +256,12 @@ body{
     color: var(--primary);
 }
 
-.gallery-card i,
-.gallery-card-2 i{
+.gallery-card i{
     margin: auto;
     font-size: 62px;
 }
 
 .gallery-card:hover{
-    box-shadow: -5px 5px 25px black;
-    transform: scale(1.2);
-    margin-top: -200px;
-    z-index: 1;
-}
-
-.gallery-card-2:hover{
     box-shadow: -5px 5px 25px black;
     transform: scale(1.2);
     margin-top: -200px;
@@ -293,4 +274,106 @@ body{
     font-weight:200;
     color: var(--primary);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gallery-card-1 {
+    width: 19.5%;
+    height: 38vh;
+    border-radius: 6%;
+    background-color: var(--text);
+    margin: 8px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-card-1 div{
+    margin-top: 6%;  
+    display: flex;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-card-1 i{
+    margin: auto;
+    font-size: 62px;
+}
+
+.gallery-card-1:hover{
+    box-shadow: -5px 5px 25px black;
+    transform: scale(1.2);
+    margin-top: -200px;
+    z-index: 1;
+}
+
+.gallery-card-2 {
+    width: 19.5%;
+    height: 38vh;
+    border-radius: 6%;
+    background-color: var(--text);
+    margin: 8px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-card-2 div{
+    margin-top: 6%;  
+    display: flex;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-card-2 i{
+    margin: auto;
+    font-size: 62px;
+}
+
+.gallery-card-2:hover{
+    box-shadow: -5px 5px 25px black;
+    transform: scale(1.2);
+    margin-top: -200px;
+    z-index: 1;
+}
+
+.gallery-card-3 {
+    width: 19.5%;
+    height: 38vh;
+    border-radius: 6%;
+    background-color: var(--text);
+    margin: 8px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-card-3 div{
+    margin-top: 6%;  
+    display: flex;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-card-3 i{
+    margin: auto;
+    font-size: 62px;
+}
+
+.gallery-card-3:hover{
+    box-shadow: -5px 5px 25px black;
+    transform: scale(1.2);
+    margin-top: -200px;
+    z-index: 1;
 }
