@@ -21,6 +21,7 @@ icons :
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth;
     transition: 0.8s;
+    overflow: visible;
 }
 
 body{
@@ -88,6 +89,7 @@ body{
     background-image: url(bg-hero.png);
     background-position: 50% 10%;
     background-size: cover;
+    z-index: -10;
 }
 
 .hero-profile{
@@ -226,6 +228,7 @@ body{
     align-items: center;
     justify-content: space-around;
     margin-top: 6px;
+    /* overflow: hidden; */
 }
 
 .gallery-card {
@@ -234,6 +237,8 @@ body{
     border-radius: 6%;
     background-color: var(--text);
     margin: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -345,6 +350,7 @@ body{
 }
 
 .gallery-card-3 {
+    margin-right: 15px;
     width: 19.5%;
     height: 38vh;
     border-radius: 6%;
