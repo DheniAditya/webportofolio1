@@ -111,18 +111,20 @@ body{
     height:110% ;
 }
 .corner-icons{
-    width: 80px;
+    /* border: 1px solid red; */
+    width: 6%;
     height: 100%;
     background-color: #22201D;
     margin: 0;
-    margin-left: 7%;
+    margin-left: 4vw;
+    /* margin-right: 4vw; */
 }
 .hero-profile:hover{
     box-shadow: 0px 0px 25px black;
 }
 
 .hero-summary{
-    width: 500px;
+    width: 40vw;
     height: 100%;
     margin: 0;
 }
