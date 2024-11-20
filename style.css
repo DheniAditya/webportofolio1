@@ -131,9 +131,9 @@ body{
 
 .hero-summary-name{
     flex-direction: column;
-    margin-top: 6%;
+    margin-top: 2vh;
     margin-bottom: 0;
-    font-size: 50px;
+    font-size: 6vh;
     font-weight: 600;
     cursor:default;
     display: flex;
@@ -145,8 +145,8 @@ body{
 }
 
 .hero-summary-longname{
-    font-size: 25px;
-    margin: 5px;
+    font-size: 4vh;
+    margin: 1%;
     margin-left: 0;
     cursor: default;
 }
@@ -156,8 +156,7 @@ body{
 }
 
 .hero-summary-address{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 2.5vh;
     margin:1px 0;
     cursor: default;
     color: var(--primary);
@@ -168,14 +167,14 @@ body{
 }
 
 .hero-summary button {
-    width: 200px;
-    height: 45px;
+    width: 175px;
+    height: 6vh;
     color: var(--primary);
     background: transparent;
     border-radius: 30px;
     padding: 0;
     border: 3px solid var(--primary);
-    font-size: 23px;
+    font-size: 3.4vh;
     margin: 0;
     margin-top: 5%;
     cursor: pointer;
