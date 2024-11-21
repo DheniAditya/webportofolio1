@@ -52,6 +52,7 @@ body{
     font-size:  4vh;
     font-weight: 600;
     margin: 0vh 2vw;
+    border: none;
     border-bottom: 2px solid transparent;
 }
 
@@ -77,8 +78,8 @@ body{
 }
 
 .hero{
-    margin: 2px;
-    margin-top: 8px;
+    margin: 0% ;
+    margin-top: 1%;
     width: 98vw;
     height: 40vh;
     display:flex;
@@ -89,7 +90,6 @@ body{
     background-image: url(bg-hero.png);
     background-position: 50% 10%;
     background-size: cover;
-    z-index: -10;
 }
 
 .hero-profile{
@@ -99,7 +99,7 @@ body{
     background-image: url(hero-bg.png);
     border: 4px solid var(--primary);
     margin: auto;
-    margin-left: 30%;
+    margin-left: 30vw;
     margin-right: 4%;
     display: flex;
     align-items: center;
@@ -126,13 +126,12 @@ body{
 .hero-summary{
     width: 40vw;
     height: 100%;
-    margin: 0;
 }
 
 .hero-summary-name{
     flex-direction: column;
-    margin-top: 2vh;
-    margin-bottom: 0;
+    margin: 1% 0;
+    margin-top: 3%;
     font-size: 6vh;
     font-weight: 600;
     cursor:default;
@@ -144,10 +143,13 @@ body{
     text-shadow: 0px 0px 25px black;
 }
 
+.hero-summary-name span{
+    margin: 0.5% 0;
+}
+
 .hero-summary-longname{
     font-size: 4vh;
-    margin: 1%;
-    margin-left: 0;
+    margin: 1% 0;
     cursor: default;
 }
 
@@ -157,7 +159,7 @@ body{
 
 .hero-summary-address{
     font-size: 2.5vh;
-    margin:1px 0;
+    margin:1% 0;
     cursor: default;
     color: var(--primary);
 }
@@ -175,15 +177,14 @@ body{
     padding: 0;
     border: 3px solid var(--primary);
     font-size: 3.4vh;
-    margin: 0;
-    margin-top: 5%;
+    margin: 3% 0;
     cursor: pointer;
 }
 
 .hero-summary button:hover{
     box-shadow: 0px 0px 20px black;
     background-color: var(--primary);
-    border: none;
+    /* border: none; */
     color: var(--text);
 }
 
@@ -214,7 +215,7 @@ body{
 
 .corner-icons i{
     padding: 1vh 1vw;
-    font-size: 25px;
+    font-size: 170%;
     color: var(--primary);
 }
 
@@ -223,30 +224,33 @@ body{
 }
 
 .gallery{
+    width: auto;
     background-color: var(--background);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 1vh;
+    justify-content: center;
     /* overflow: hidden; */
 }
 
 .gallery-card {
-    width: 19.5%;
+    width: 18.9% ;
     height: 33vh;
     border-radius: 6%;
     background-color: var(--text);
-    margin: 8px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 2vh 1vw;
     padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.gallery-card p{
+    margin-bottom: auto;
+}
+
 .card-button{
+    font-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,13 +258,14 @@ body{
     height: 5%;
     margin: 0;
     cursor: pointer;
+    opacity: 80%;
 }
 
 .gallery-card div{
-    margin-top: 6%;  
+    margin : 3% 0%;  
     display: flex;
-    height: 80px;
-    width: 100%;
+    height: 11vh;
+    width: 100%; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,13 +273,13 @@ body{
 
 .gallery-card-p{
     margin:auto;
-    font-size: 30px;
+    font-size: 2.4vw;
     color: var(--primary);
 }
 
 .gallery-card i{
     margin: auto;
-    font-size: 62px;
+    font-size: 4vw;
 }
 
 .gallery-card:hover{
@@ -285,7 +290,7 @@ body{
 }
 
 .gallery-card-p-content{
-    font-size: 18px;
+    font-size: 1.18vw;
     text-align: justify;
     font-weight:200;
     color: var(--primary);
@@ -293,112 +298,6 @@ body{
     margin: 0;
     margin-bottom: -10px;
 }
-
-.gallery-card-1 {
-    width: 19.5%;
-    height: 33vh;
-    border-radius: 6%;
-    background-color: var(--secondary);
-    margin: 8px;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.gallery-card-1 div{
-    margin-top: 6%;  
-    display: flex;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gallery-card-1 i{
-    margin: auto;
-    font-size: 62px;
-}
-
-.gallery-card-1:hover{
-    box-shadow: -5px 5px 25px black;
-    /* transform: scale(1.2); */
-    margin-top: -200px;
-    z-index: 1;
-}
-
-.gallery-card-2 {
-    width: 19.5%;
-    height: 33vh;
-    border-radius: 6%;
-    background-color: var(--text);
-    margin: 8px;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.gallery-card-2 div{
-    margin-top: 6%;  
-    display: flex;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gallery-card-2 i{
-    margin: auto;
-    font-size: 62px;
-}
-
-.gallery-card-2:hover{
-    box-shadow: -5px 5px 25px black;
-    /* transform: scale(1.2); */
-    margin-top: -200px;
-    z-index: 1;
-}
-
-.gallery-card-3 {
-    margin-right: 15px;
-    width: 19.5%;
-    height: 33vh;
-    border-radius: 6%;
-    background-color: var(--secondary);
-    margin: 8px;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.gallery-card-3 div{
-    margin-top: 6%;  
-    display: flex;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gallery-card-3 i{
-    margin: auto;
-    font-size: 62px;
-}
-
-.gallery-card-3:hover{
-    box-shadow: -5px 5px 25px black;
-    /* transform: scale(1.0); */
-    margin: 0;
-    margin-top: -200px;
-    z-index: 1;
-    transform-origin: left left;
-}
-
 .footer {
     width: 100%;
     height: 5vh;
@@ -413,13 +312,13 @@ body{
 
 .footer div{    
     color: var(--text);
-    font-size: 12px;
+    font-size: 2vh;
     margin: 0 4px;
     opacity: 90%;
 }
 
 .footer i{
-    font-size: 17px;
+    font-size: 2vh;
     color: var(--text);
     opacity: 90%;
 }
