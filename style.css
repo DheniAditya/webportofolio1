@@ -150,6 +150,8 @@ body{
 
 .hero-summary-name span{
     margin: 0.5% 0;
+    font-size: 6vh; 
+    font-weight:lighter;
 }
 
 .hero-summary-longname{
