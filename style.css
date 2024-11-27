@@ -7,7 +7,23 @@ icons :
                 <i class="fa-regular fa-building"></i>
     email <i class="fa-solid fa-at"></i>
     linkedin <i class="fa-brands fa-linkedin"></i>
+    media query 
+    - tablet 768px
+    - phone 480px
+    - 1/2 dekstop  960px
+    - 1/4 dekstop 480px
 */
+
+@media (max-width: 960px) {
+    .header {
+        background-color: white;
+        color: red;
+    }
+    body{
+        background-color: red;
+    }
+}
+
 
 :root{
     --primary :#22201D;
