@@ -14,17 +14,6 @@ icons :
     - 1/4 dekstop 480px
 */
 
-@media (max-width: 960px) {
-    .header {
-        background-color: white;
-        color: red;
-    }
-    body{
-        background-color: red;
-    }
-}
-
-
 :root{
     --primary :#22201D;
     --text :#E6E4D7;
@@ -86,7 +75,7 @@ body{
     text-decoration: none;
     color: var(--text);
     font-size: 3vh;
-    border-bottom: 1px dashed transparent;
+    border-bottom: 1px solid transparent;
 }
 
 .nav-link:hover{
