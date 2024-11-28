@@ -51,4 +51,21 @@
     .gallery-card div i {
         font-size: 4vw;
     }
+    .gallery-card div p {
+        font-weight: 600;
+    }
+    .gallery-card-p-content {
+        font-size: 1.6vw;
+    }
+    .card-button{
+        font-size: 80%;
+    }
+    .footer div{    
+        font-size: 1.6vh;
+    }
+    
+    .footer i{
+        font-size: 1.6vh;
+    }
+
 }
