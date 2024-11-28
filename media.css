@@ -1,5 +1,5 @@
 @media (max-width: 1300px) {
-    *{    scroll-behavior: smooth;
+    *{    scroll-behavior: smooth; 
         transition: 0.8s;
     
     }
@@ -44,5 +44,11 @@
         width: 4.5%;
         height: 100%;
         margin-right: 3vw;
-    }       
+    }     
+    .gallery-card {
+        margin: 3.5% 1%;
+    }
+    .gallery-card div i {
+        font-size: 4vw;
+    }
 }
