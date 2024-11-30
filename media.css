@@ -72,7 +72,31 @@
 
 @media (max-width: 480px) {
     .logo-name{
-        font-size: 2.5vh;
-        
+        font-size: 2.8vh;
+        margin-left: 4vw;
+    }
+    .nav{
+        display: none;    
+    }
+    .hero-profile{
+        width: 20vh;
+        height: 20vh;
+    }
+    .hero-summary-name{
+        font-size: 4.5vh;
+        margin-top: 4vh;
+    }
+    .hero-summary-name span {
+        font-size: 4vh;
+    }
+    .hero-summary-longname {
+        font-size: 3vh;
+    }
+    .hero-summary button {
+        margin-top: 3vh;
+        width: 40vw;
+        border: 2px solid var(--primary);
+        font-size: 2.8vh;
+        font-weight: 500;
     }
 }
