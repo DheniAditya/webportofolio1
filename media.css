@@ -72,7 +72,7 @@
 
 @media (max-width: 480px) {
     .logo-name{
-        font-size: 2.8vh;
+        font-size: 3.5vh;
         margin-left: 4vw;
     }
     .nav{
@@ -99,4 +99,10 @@
         font-size: 2.8vh;
         font-weight: 500;
     }
+    .header i{
+        display: flex;
+        font-size: 20px;
+        margin-right: 2vw;
+    }
+    
 }

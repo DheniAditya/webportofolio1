@@ -51,6 +51,12 @@ body{
     justify-content: space-between;
 }
 
+.header i {
+    font-size: 30px;
+    color: var(--text);
+    display: none;
+}
+
 .logo-name{
     color: var(--text);
     text-decoration: none;
