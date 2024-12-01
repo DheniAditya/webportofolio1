@@ -81,7 +81,7 @@ body{
     text-decoration: none;
     color: var(--text);
     font-size: 3vh;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-link:hover{
