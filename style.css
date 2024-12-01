@@ -312,10 +312,10 @@ body{
     margin-bottom: -10px;
 }
 .footer {
-    width: 100%;
+    width: 100vw;
     height: 5vh;
     background-color: var(--primary);
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     display: flex;
